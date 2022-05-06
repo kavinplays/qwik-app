@@ -3,7 +3,7 @@ import { useStore, component$, Host } from '@builder.io/qwik';
 import './global.css';
 
 export const Main = component$(() => {
-  const state = useStore({ name: 'World' });
+  // const state = useStore({ name: 'World' });
   return (
     <Host class="my-app p-20">
       <div class="text-gray-500 h-screen justify-center overflow-hidden">

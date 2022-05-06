@@ -20,6 +20,7 @@ export function render(opts: RenderToStringOptions) {
       <head>
         <meta charSet="utf-8" />
         <title>KavinPlays</title>
+        <link rel="shortcut icon" href="favicon.ico"></link>
       </head>
       <body>
         <Main />
