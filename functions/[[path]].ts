@@ -3,7 +3,7 @@
 // @ts-ignore
 import { qwikSSR } from '../server/build/entry.cloudflare.js';
 
-const CACHE_CONTROL = 60;
+const CACHE_CONTROL = 600;
 
 export const onRequestGet: PagesFunction = async (req) => {
   // Handle static assets

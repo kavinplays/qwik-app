@@ -7,7 +7,7 @@ export const Main = component$(() => {
   return (
     <Host class="my-app p-20">
       <div class="text-gray-500 h-screen justify-center overflow-hidden">
-      <center class="mt-56 m-auto">
+      <center class="mt-64 m-auto">
 
       <div class="tracking-widest"><br></br>
       <span class="text-gray-500 text-6xl block"><span>Not Ready Yet!</span></span><br></br>
